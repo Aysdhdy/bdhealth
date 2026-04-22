@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>曼秀雷敦润唇膏真假辨别 - 百家号</title>
+    <style>
+        /* 全局样式重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", Arial, sans-serif;
+        }
+
+        /* 页面主体容器 */
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        /* 百家号头部导航简化样式 */
+        .bjh-header {
+            height: 60px;
+            line-height: 60px;
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+
+        .bjh-header h1 {
+            font-size: 20px;
+            font-weight: normal;
+            display: inline-block;
+        }
+
+        /* 文章作者信息栏 */
+        .author-info {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 20px;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin-right: 15px;
+            overflow: hidden;
+        }
+
+        .author-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .author-detail {
+            flex: 1;
+        }
+
+        .author-id {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .publish-time {
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* 文章内容区域 */
+        .article-content {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+        }
+
+        /* 图片容器 - 缩略图样式 */
+        .img-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .img-item {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            overflow: hidden;
+            border: 1px solid #eee;
+        }
+
+        .img-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .img-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* 图片放大模态框 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        .modal-content img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* 评论区样式 */
+        .comment-section {
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+        }
+
+        .comment-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .comment-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+        .comment-user {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .comment-time {
+            font-size: 12px;
+            color: #999;
+            margin-left: 10px;
+        }
+
+        .comment-content {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .no-more-comment {
+            font-size: 14px;
+            color: #999;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 百家号头部 -->
+    <div class="bjh-header">
+        <h1>百家号 - 优质内容发布平台</h1>
+    </div>
+
+    <!-- 页面主体 -->
+    <div class="container">
+        <!-- 作者信息 -->
+        <div class="author-info">
+            <div class="author-avatar">
+                <img src="https://via.placeholder.com/50" alt="用户头像">
+            </div>
+            <div class="author-detail">
+                <div class="author-id">雨初凉生</div>
+                <div class="publish-time">2023-12-11 13:32</div>
+            </div>
+        </div>
+
+        <!-- 文章内容 -->
+        <div class="article-content">
+            <p>曼秀雷敦润唇膏也有假货了嘛</p>
+            <p>咱也是不懂，原来唇膏也有假的吗</p>
+            <p>图中上为真，下为假（差点又弄混了）</p>
+            <p>假的润唇膏一打开一股淡淡的万花油味道</p>
+            <p>假的啫喱一开始居然能挤出来水</p>
+            <p>真的唇膏就是熟悉的香味，啫喱也不带水</p>
+
+            <!-- 图片区域（缩略图，点击放大） -->
+            <div class="img-group">
+                <div class="img-item" onclick="openModal('img1')">
+                    <img src="https://p26-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/3730befda75147e5a6e2b23e5feb0a90.jpg~tplv-a9rns2rl98-24:720:720.jpg?lk3s=8e244e95&rcl=20260422102809A9FD964278B6E73D6031&rrcfp=8a172a1a&x-expires=1777429689&x-signature=d5z4TSczBylDnM0owyXMyEgzJtA%3D" alt="润唇膏对比图1" id="img1-thumb">
+                </div>
+                <div class="img-item" onclick="openModal('img2')">
+                    <img src="https://p3-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/24a5dbe821f34d0b8a0649bb3056ae74.jpg~tplv-a9rns2rl98-24:720:720.jpg?lk3s=8e244e95&rcl=20260422102809A9FD964278B6E73D6031&rrcfp=8a172a1a&x-expires=1777429689&x-signature=SyCZd9%2BX1KRVHQvfY7DIiw550BU%3D" alt="润唇膏对比图2" id="img2-thumb">
+                </div>
+                <div class="img-item" onclick="openModal('img3')">
+                    <img src="https://p11-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/16fc8a161e7e4e7aab7fd7a62ac4801d.jpg~tplv-a9rns2rl98-24:720:720.jpg?lk3s=8e244e95&rcl=20260422102809A9FD964278B6E73D6031&rrcfp=8a172a1a&x-expires=1777429689&x-signature=fKpsl%2BiJCUQmcYKPe3Bn2j3tEtM%3D" alt="润唇膏对比图3" id="img3-thumb">
+                </div>
+                <div class="img-item" onclick="openModal('img4')">
+                    <img src="https://p3-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/f5420efe8ed34bcdb515d0e0832dae41.jpg~tplv-a9rns2rl98-24:720:720.jpg?lk3s=8e244e95&rcl=20260422102809A9FD964278B6E73D6031&rrcfp=8a172a1a&x-expires=1777429689&x-signature=0rJq%2BlzrpwLil4mGBL%2BebRfMFOQ%3D" alt="润唇膏对比图4" id="img4-thumb">
+                </div>
+                <div class="img-item" onclick="openModal('img5')">
+                    <img src="https://p26-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/931927894e134e0e82baf0f1dd79b350.jpg~tplv-a9rns2rl98-24:720:720.jpg?lk3s=8e244e95&rcl=20260422102809A9FD964278B6E73D6031&rrcfp=8a172a1a&x-expires=1777429689&x-signature=5To2F1IoPcK%2BguzHouDXqHCHvK0%3D" alt="润唇膏对比图5" id="img5-thumb">
+                </div>
+            </div>
+        </div>
+
+        <!-- 评论区 -->
+        <div class="comment-section">
+            <div class="comment-title">评论区</div>
+            
+            <div class="comment-item">
+                <div class="comment-user">QiQi喜欢瑜伽 <span class="comment-time">2025-03-30 河南</span></div>
+                <div class="comment-content">你这润唇膏保真吗？</div>
+            </div>
+
+            <div class="comment-item">
+                <div class="comment-user">周杰赛车人 <span class="comment-time">2025-03-30 甘肃</span></div>
+                <div class="comment-content">曼秀雷敦也有假货了？还好你发现了，不然嘴巴都要干裂了！快教我几招辨别真假的方法吧！</div>
+            </div>
+
+            <div class="comment-item">
+                <div class="comment-user">隽苓0HId8d <span class="comment-time">2024-11-24 青海</span></div>
+                <div class="comment-content">幸好你提醒，不然我可能也要中招了，以后买唇膏还是认准正规渠道吧，安全又放心。</div>
+            </div>
+
+            <div class="no-more-comment">没有更多啦</div>
+        </div>
+    </div>
+
+    <!-- 图片放大模态框 -->
+    <div class="modal" id="imgModal" onclick="closeModal()">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImg" src="" alt="放大后的图片">
+        </div>
+    </div>
+
+    <script>
+        // 打开图片放大模态框
+        function openModal(imgId) {
+            const modal = document.getElementById('imgModal');
+            const modalImg = document.getElementById('modalImg');
+            // 获取缩略图的src，赋值给模态框图片
+            modalImg.src = document.getElementById(imgId + '-thumb').src;
+            modal.style.display = 'flex';
+        }
+
+        // 关闭图片放大模态框
+        function closeModal() {
+            const modal = document.getElementById('imgModal');
+            modal.style.display = 'none';
+        }
+
+        // 点击模态框空白处也关闭（除了图片）
+        document.getElementById('imgModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
